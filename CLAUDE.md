@@ -6,7 +6,7 @@ ZLAR-LT is a zero-config governance layer for AI coding agents. One command inst
 
 ## Architecture
 
-ZLAR-LT is not a new gate engine. It packages the same `bin/zlar-gate` (857 lines) and `bin/zlar-policy` (726 lines) from ZLAR Gate with a zero-config installer and a deny-heavy default policy.
+ZLAR-LT is not a new gate engine. It packages the same `bin/zlar-gate` (~1000 lines) and `bin/zlar-policy` (726 lines) from ZLAR Gate with a zero-config installer and a deny-heavy default policy.
 
 ```
 curl -fsSL https://zlar.ai/install.sh | bash
