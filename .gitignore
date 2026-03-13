@@ -1,0 +1,13 @@
+# Runtime data
+var/log/
+.env
+
+# Keys (private key lives at ~/.zlar-signing.key, not in repo)
+etc/keys/
+
+# Signed active policy (generated at install)
+etc/policies/active.policy.json
+
+# OS files
+.DS_Store
+Thumbs.db
